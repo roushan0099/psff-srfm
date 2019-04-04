@@ -1,0 +1,222 @@
+.main-nav {
+    font-size-adjust: 50px;
+    width: 100%;
+    background: rgba(132, 144, 252, 0.199);
+    min-height: 5px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 254, 254);
+  } 
+  
+  
+  
+  
+  .nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  
+  }
+  
+  .nav .name {
+  display: block;
+  margin-right: auto;
+  color: rgb(14, 12, 12);
+  }
+  .nav li {
+  padding: 5px 10px 10px 10px;
+  text-align-last: center;
+  
+  }
+  .nav h1 {
+  text-align-last: left
+  }
+  h1 {
+  
+  font-size: 3em;
+  
+  font-weight: lighter;
+  font-style: italic;
+  color: rgb(102, 102, 102);
+  text-align: left;
+  border: #222;
+  
+  text-align: center;
+  }
+  .nav a {
+  transition: all .9s;
+  color: rgb(17, 16, 17);
+  font-style: initial;
+  }
+  .nav a:hover {
+  color: rgb(165, 158, 154)
+  }
+  header {
+    text-align: center;
+    background-color: rgb(255, 255, 255);  no-repeat top center ; ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 80px;
+    
+
+  }
+  header {
+    line-height: 1.5;
+  }
+  header p {
+    padding-top: 0cm;
+    color: #222;
+  }
+  header .profile-image {
+    margin-left: 70%;
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    border: 3px solid rgb(124, 121, 121);
+    transition: all .5s;
+    text-align: left;
+    ;
+  }
+  header .profile-image:hover {
+  transform: scale(1) rotate(360deg);
+  }
+  .card {
+    margin: ;
+    font-style: bold;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    height: 10cm;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+    padding-top: 10cm;
+    color: #222;
+  }
+  .card:hover {
+    border-color: #ffffff;
+    }
+  .tag {
+    
+    color: rgba(248, 246, 250, 0.733);
+    padding: 10px;
+  text-decoration-style: double;
+  font-size: 150%;
+  font-style: oblique;
+    
+    margin: 10px auto;
+  } 
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+    height: 100cm:
+  }
+  marquee {
+    color: black;
+  }
+  footer {
+    
+    width: 100%;
+    min-height: 100px;
+    padding:  20px 0 40px 20px;
+    background-color: rgba(255, 255, 255, 0.925);
+  }
+  
+  footer .copyright {
+    top: -8px;
+    font-size: .50em;
+    font-style: italic;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  footer p {
+      color: rgb(5, 5, 5);
+  }
+  
+  footer ul li {
+    display: inline-block;
+  
+  padding-top: 10cm;  }
+  
+  a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: ;
+    transition: all .5s;
+  }
+  a.twitter {
+    background-image: url(twitter.png);
+  }
+  a.linkedin {
+    background-image: url(linkedin.png);
+  }
+  a.facebook {
+    background-image: url(facebook.png);
+  }
+  a.instagram {
+    background-image: url(instagram.png);
+  }
+  a.social:hover {
+    transform: scale(1.2);   
+  }
+  .clearfix {
+    clear: both;
+  }
+  
+  @media screen and (min-width: 720px) {
+    
+    .flex {
+        display: -ms-flexbox;      
+        display: flex; 
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+  
+    header {
+      min-height: 470px;
+    }
+  
+    .nav {
+      max-width: 1200px;
+      padding: 0 30px;
+    }
+    
+  
+  
+    main {
+      padding-top: 20px;
+      background-color: #706581;
+    }
+  
+    main p {
+      line-height: 1.6em;
+    }
+    
+    footer {
+      font-size: 1.3em;
+      max-width: 1200px;
+      margin: 40px auto;
+      background-size: cover;
+      footer, header, hgroup, main, menu, nav, section, summary {
+        display: block;
+  
