@@ -286,7 +286,9 @@ a>img:first-child:last-child {
 img {
   border: 0;
 }
-
+.section-aside {
+  color: #fdfdfd;
+}
 @media screen and (min-width: 720px) {
   
   .flex {
