@@ -1,0 +1,458 @@
+
+.main-nav {
+  font-size-adjust: 50px;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  min-height: 5px;
+  padding: 5px;
+  position: sticky;
+  text-align: center;
+  color: rgb(255, 254, 254);
+ 
+} 
+
+
+
+
+.nav {
+display: flex;
+justify-content: space-around;
+font-weight: 700;
+list-style-type: none;
+margin: 0 auto;
+padding: 0;
+
+}
+
+.nav .name {
+display: block;
+margin-right: auto;
+color: rgb(14, 12, 12);
+}
+.nav li {
+padding: 5px 10px 10px 10px;
+text-align-last: center;
+
+}
+.nav h1 {
+text-align-last: left
+}
+h1 {
+
+font-size: 3em;
+
+font-weight: lighter;
+font-style: italic;
+color: rgb(102, 102, 102);
+text-align: left;
+border: #222;
+
+text-align: center;
+}
+.nav a {
+transition: all .9s;
+color: rgb(17, 16, 17);
+font-style: initial;
+}
+.nav a:hover {
+color: rgb(165, 158, 154)
+}
+
+.homel {
+  color: yellow;
+}
+header {
+  text-align: left;
+  padding-top: 0cm;
+}
+.photo-container {
+  padding-top: 0cm;
+ 
+}
+
+
+
+
+.header.h1 {
+  color: rgb(255, 255, 255);
+  font-size: 30%;
+}
+ 
+.header-p {
+  font-size: 19px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(22, 21, 21);
+  padding-left: 1cm;
+  padding-right: 1cm;
+  padding-bottom: 3cm;
+  padding-top: 3cm;
+  background-image:url(globepic.jpg);
+  
+}
+.image-h {
+  opacity: 0.5;
+  
+  
+}
+.upper-main {
+  display: flex;
+  padding: 1cm;
+  background-color: #28303a7e;
+}
+.bottom-main {
+  background-image: url(globepic.jpg);
+}
+#rcorners1{
+  border-radius: 50px;
+  
+  padding: 20px; 
+  width: 5in;
+  height: 3in;  
+  opacity: 3;
+}
+#rcorners1:hover {
+  transform: scale(1.1);
+  
+}
+.card {
+ background-color: rgb(192, 192, 192);
+ width: 10cm;
+ margin: auto;
+}
+.upcomming {
+  background-color: #00000094;
+}
+.upcomming h1 {
+font-size: 1cm;
+color: rgb(250, 21, 21);
+padding-left: 3cm;
+padding-right: 3cm;
+padding-top: 0.1cm;
+padding-bottom: 1cm;
+text-align:
+}
+
+.upcomming ol {
+  padding-left: 3cm;
+  padding-right: 3cm;
+  padding-bottom: 1cm
+}
+.upcomming li {
+  font-size: 15px;
+  padding-bottom: 0.5cm;
+  color: rgb(21, 250, 0);
+}
+.upcomming a {
+  color: rgb(38, 118, 238);
+  padding-left: 1cm;
+  font-size: 17px;
+}
+.upcomming a:hover {
+  color: #ffdc16;
+}
+.card:hover {
+  border-color: #161616;
+  }
+.tag {
+  
+  color: rgba(248, 246, 250, 0.733);
+  padding: 10px;
+text-decoration-style: double;
+font-size: 150%;
+font-style: oblique;
+  
+  margin: 10px auto;
+} 
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  background-image: url(globepic.jpg);
+  opacity: 50%;
+
+}
+
+footer {
+  
+  width: 100%;
+  min-height: 100px;
+  
+  background-color: #1d1c1c8f;
+
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: 15px;
+  font-style: italic;
+  
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 1cm;
+}
+footer p {
+    color: rgb(5, 5, 5);
+}
+
+footer ul li {
+  display: inline-block;
+
+ }
+ .contact-srf {
+   text-align: center;
+   font-size: 0.5cm;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(255, 255, 255);
+   padding-top: 3cm;
+ }
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: ;
+  transition: all .5s;
+}
+a.twitter {
+  background-image: url(twitter.png);
+}
+a.linkedin {
+  background-image: url(linkedin.png);
+}
+a.facebook {
+  background-image: url(facebook.png);
+}
+a.instagram {
+  background-image: url(instagram.png);
+}
+a.social:hover {
+  transform: scale(1.2);   
+}
+a.youtube{
+  background-image: url(youtubel.png);
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media screen and (min-width: 720px) {
+  
+  .flex {
+      display: -ms-flexbox;      
+      display: flex; 
+      max-width: 1200px;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 470px;
+    padding-top: 1.7777777cm;
+    background-color: #222;
+  }
+
+  .nav {
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+  
+
+
+  main {
+    padding-top: 0px;
+    background-image: url(globepic.jpg);
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(globepic.jpg);
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    padding-left: 15cm;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition:  0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(177, 169, 169, 0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: rgb(247, 245, 245);
+    z-index: 2;
+  }
+  
+  .flip-card-back {
+    background-color: #0d0d0e;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 2;
+  }
+  
+  
+  }
+  .node--type-case-study.node--view-mode-teaser .field--name-field-teaser-image img {
+    transition: 5s ease-in;
+}
+img {
+    max-width: 60%;
+    height: auto;
+    vertical-align: middle;
+}
+
+}
+img {
+    border: transparent;
+}
+img[Attributes Style] {
+    width: 500px;
+    height: 300px;
+}
+a {
+    color: #e4eaee;
+    text-decoration: none;
+    font-size: 50px;
+}
+#card-quote {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #222;
+}
+#card-head {
+  font-size: 30px;
+  color: #000000;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.paragraph--type--homepage-portfolio- .view-id-portfolio {
+  padding-top: 20px;
+}
+.view-id-portfolio {
+  padding-top: 60px;
+}
+.view-id-portfolio {
+  position: relative;
+}
+.view-id-portfolio .view-content {
+  margin-left: -5px;
+  margin-right: -5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.view-id-portfolio .view-content .views-row.even {
+  clear: both;
+}
+.view-id-portfolio .view-content .views-row {
+  float: left;
+  width: calc(50% - 10px);
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-bottom: 100px;
+}
+.node--type-case-study.node--view-mode-teaser {
+  padding: 9px 9px 27px;
+  transition: .2s ease-in;
+  position: relative;
+  box-sizing: border-box;
+}
+.node--type-case-study.node--view-mode-teaser:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transition: .4s ease-in;
+  opacity: 0;
+  transform: scale(1.04);
+  background-color: #242b34;
+  pointer-events: none;
+}
+.node--type-case-study.node--view-mode-teaser .field--name-field-teaser-image {
+  overflow: hidden;
+}
+.node--type-case-study.node--view-mode-teaser .field--name-field-teaser-image img {
+  transition: 1s ease-in;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+div {
+  display: block;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 80%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery-font {
+  font-size: 1cm;
+  text-align: left;
+  padding-bottom: 1cm;
+} 
