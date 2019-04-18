@@ -115,6 +115,6 @@ if(isset($_POST["submit"])) {
 
   mail($to,$email_subject,$email_body,$headers);
 
-  header("Location: form,index.html");
+  header("Location: form.index.html");
 ?>
   
