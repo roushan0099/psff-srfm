@@ -53,16 +53,21 @@
 
 
         
+      
         <label for="language">Language known</label>
-        <select id="language" name="user_language">
-          <option value="hindi">Hindi</option>          
-          <option value="english">English</option>
-          <option value="marathi">Marathi</option> 
-          <option value="tamil">Tamil</option>  
-          <option value="cannad">Cannad</option> 
-          <option value="other">other</option>         
-          
-        </select>   
+        <div class="col-3 col">
+              <input type="checkbox" name="language" value="Hindi"> Hindi<br>
+              </div>
+              <div class="col-3 col">
+              <input type="checkbox" name="language" value="Marathi" checked>Marathi<br>
+              </div>
+              <div class="col-3 col">
+              <input type="checkbox" name="language" value="English">English<br>
+              </div>
+              <div class="col-3 col">
+              <input type="checkbox" name="language" value="other" checked>Other<br>
+              </div>
+              <input type="submit" value="Submit">
         <label for="acting">Acting training</label>
         <input type="text" id="training" name="user_trainig">
         <label for="awards">Awards</label>
