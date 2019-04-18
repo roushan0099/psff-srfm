@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register for Full Stack Conf</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="form,style.css">
+ 
+
+</head>
+
+<body>
+	<div class="container">
+    
+    <header>
+      <span class="headline">REGISTER FOR AUDITION</span>
+
+      
+    </header>
+<div class="contact-form">
+    <form action="form.index.php" method="post">
+        <img src="srflogo.png" width="100px" height="50px">
+              
+      <fieldset>         
+        <legend>Basic Info</legend>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="title">Gender</label>
+        <select id="title" name="gender">
+         
+          <option value="male">Male</option>          
+          <option value="female">Female</option>
+          <option value="transgender">Transgender</option>  
+        </select>         
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+        <div class="contact-number">
+        <div class="col-6 col">
+        <label for="phone">Phone no:</label>
+        <input type="tel" id="phone" name="phone-number">
+        </div>
+        <div class="col-3 col"></div>
+        <label for="whatsaap">Whatsapp no:</label>
+        <input type="tel" id="whatsaap" name="whatsapp-number">
+        </div>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="email">
+    
+        
+        <label for="DOB">DOB:</label>
+        <p id="resultBday"></p>
+<input type="date" name="bday" id="bday" onchange="submitBday()">
+<label for="address">Academics</label>
+        <input type="text" id="address" name="academics">
+
+
+        
+        <label for="language">Language known</label>
+        <div class="col-3 col">
+              <input type="checkbox" name="language" value="Hindi"> Hindi<br>
+              </div>
+              <div class="col-3 col">
+              <input type="checkbox" name="language" value="Marathi" checked>Marathi<br>
+              </div>
+              <div class="col-3 col">
+              <input type="checkbox" name="language" value="English">English<br>
+              </div>
+              <div class="col-3 col">
+              <input type="checkbox" name="language" value="other" checked>Other<br>
+              </div>
+              
+                   
+          
+           
+        <label for="acting">Acting training</label>
+        <input type="text" id="training" name="acting-trainig">
+        <label for="awards">Awards</label>
+        <input type="text" id="awards" name="awards">
+        <label for="address">Experience</label>
+        <input type="text" id="experience" name="experience">
+        <label for="hobbies">Hobbies</label>
+        <input type="text" id="hobbies" name="hobbies">
+        <label for="skills">Other skills</label>
+        <input type="text" id="skills" name="skills">
+
+
+
+
+
+             
+      </fieldset>
+      
+      <fieldset class="passport">
+          <div class="col-3 col">
+          <label for="passport">Passport</label>
+          <select id="opt" name="passport">
+            <option value="yes">Yes</option>
+            <option value="no" selected>No</option>
+         
+          </select>
+        </div>
+
+        <div class="col-3 col">
+          <label for="p-number">If yes, Passport Number</label>
+          <input type="tel" id="awards" name="passport-number">
+            
+        </div>   
+      </fieldset>
+
+      <fieldset>
+          <legend></legend>
+          <div class="col-6 col">
+        <label for="height">Height:</label>
+        <input type="number" id="height" name="height" placeholder="in inches">
+        </div>
+        <div class="col-3 col">
+        <label for="weight">Weight:</label>
+        <input type="number" id="weight" name="weight" placeholder="in kg">
+          </div>        	
+      </fieldset>
+      <fieldset>
+        <legend></legend>
+
+      
+
+      
+
+          <div class="col-6 col">
+            <label for="vitals">Vitals:</label>
+        	  <input id="vitals" name="vitals" type="text">
+          </div>
+
+        <div class="col-3 col">
+            <label for="skin">Skin tone:</label>
+            <input id="skin" name="skin-tone" type="text"> 
+          </div>
+      </fieldset>   
+         <fieldset>
+          <legend></legend>
+          <div class="col-6 col">
+              <label for="hair">Color of hair:</label>
+              <input id="hair" name="color-of-hair" type="text">
+            </div>
+  
+            <div class="col-3 col">
+              <label for="length">Length:</label>
+              <input id="length" name="hair-length" type="text"> 
+            </div>
+            <div class="col-3 col">
+                <label for="eye">Color of eye:</label>
+                <input id="eye" name="eye-color" type="text"> 
+              </div>
+        </fieldset> 
+        <fieldset>
+        <div class="col-6 col">
+            <label for="no-eye">Numbered eye:</label>
+            <select id="noeye" name="numbered-eye">
+              <option value="yes">Yes</option>
+              <option value="no" selected>No</option>
+              
+            </select>
+          </div>
+  
+          <div class="col-3 col">
+            <label for="eye-number">If yes, Number specification</label>
+            <input type="number" id="awards" name="power-of-eye">
+              
+          </div>   
+          </fieldset> 
+          <fieldset>
+              <div class="col-6 col">
+                  <label for="married">Maritial Status</label>
+                  <select id="maried" name="maritial-status">
+                    <option value="yes">Single</option>
+                    <option value="no" selected>Married</option>
+                    
+                  </select>
+                </div>
+        
+                <div class="col-3 col">
+                  <label for="child">Children</label>
+                  <input type="number" id="awards" name="children">
+                    
+                </div>   
+                </fieldset> 
+                <legend></legend>
+                <label for="yourself">Describe yourself</label>
+                <textarea class="textarea" rows="6" cols="50" ></textarea>
+                <label for="aim">Your aim in life</label>
+                <textarea class="textarea" rows="6" cols="50" ></textarea>
+               <div>
+                <label for="audition-time">Preferred Time for Audition</label>
+                <select id="opt" name="prefered-audition-time">
+                  <option value="9am">9 AM</option>
+                  <option value="10am"> 10 AM</option>
+                  <option value="11am">11 AM</option>
+                  <option value="12am">12 AM</option>
+                  <option value="1pm">1 PM</option>
+                  <option value="2pm">2 PM</option>
+                  <option value="3pm">3 PM</option>
+                  <option value="4pm">4 PM</option>
+                  <option value="5pm">5 PM</option>
+                  <option value="6pm">6 PM</option>
+                  </select>
+                  
+                  </div>
+             
+              
+                  <legend></legend>
+                  <div>
+                      <input type="file" name="fileToUpload" id="fileToUpload">
+                     
+                  (PORTFOLIO ONLY)
+              </div>
+
+                 
+            
+      <button type="submit" value="SEND MESSAGE" >Register</button>
+      </form>
+      </div>
+    
+      
+    
+
+	
+</body>
+</html>
